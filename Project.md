@@ -2,15 +2,15 @@
 
 General info:
 ```
-URL={URL} 
-APP_NAME={APP_NAME}
+URL=https://n8n.piksl.si
+APP_NAME=pikslmarketing-n8n
 ```
 
 N8N configuration:
 ```
-N8N_HOST="{URL}"
-N8N_EDITOR_BASE_URL="{URL}"
-WEBHOOK_URL="{URL}"
+N8N_HOST="https://n8n.piksl.si"
+N8N_EDITOR_BASE_URL="https://n8n.piksl.si"
+WEBHOOK_URL="https://n8n.piksl.si"
 N8N_PROTOCOL="https"
 N8N_PORT="5678"
 GENERIC_TIMEZONE="UTC"
@@ -30,6 +30,6 @@ N8N_ENCRYPTION_KEY={ENCRYPTION_KEY}
 
 Github Actions - Repository Secrets:
 ```
-FLY_APP_NAME="{APP_NAME}"
+FLY_APP_NAME="pikslmarketing-n8n"
 FLY_API_TOKEN="{API_TOKEN}
 ```
